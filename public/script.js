@@ -66,6 +66,7 @@ function connectToNewUser(userId, stream, myPeer) {
     if (peers[userId]) {
       peers[userId].close();
       video.remove();
+      
     }
   });
 }
